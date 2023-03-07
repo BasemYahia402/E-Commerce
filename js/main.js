@@ -10,37 +10,37 @@ if (localStorage.getItem("products")) {
         {
             product_name: "Shos",
             product_price: "150$",
-            product_image: "imgs/shos-min.jpg",
+            product_image: "/imgs/shos-min.jpg",
             added_to_cart: false
         },
         {
             product_name: "Head Phone",
             product_price: "160$",
-            product_image: "imgs/headphone-min.jpg",
+            product_image: "/imgs/headphone-min.jpg",
             added_to_cart: false
         },
         {
             product_name: "Airbots",
             product_price: "170$",
-            product_image: "imgs/liviu-c-ti3P_Bm2zio-unsplash-min.jpg",
+            product_image: "/imgs/liviu-c-ti3P_Bm2zio-unsplash-min.jpg",
             added_to_cart: false
         },
         {
             product_name: "mango juice",
             product_price: "180$",
-            product_image: "imgs/mangojuice-min.jpg",
+            product_image: "/imgs/mangojuice-min.jpg",
             added_to_cart: false
         },
         {
             product_name: "parphan",
             product_price: "190$",
-            product_image: "imgs/pmv-chamara-MEsWk-dZzlI-unsplash-min.jpg",
+            product_image: "/imgs/pmv-chamara-MEsWk-dZzlI-unsplash-min.jpg",
             added_to_cart: false
         },
         {
             product_name: "Camera",
             product_price: "200$",
-            product_image: "imgs/eniko-kis-KsLPTsYaqIQ-unsplash-min.jpg",
+            product_image: "/imgs/eniko-kis-KsLPTsYaqIQ-unsplash-min.jpg",
             added_to_cart: false
         }
     ]
