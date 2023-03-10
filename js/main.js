@@ -101,6 +101,11 @@ function remove_item_from_bag(num) {
     for (let i = 0; i < item.length; i++) {
         if (parseInt(item[i].getAttribute("data-id")) === num) {
             item[i].remove();
+                    number.forEach(n => {
+            if (n.textContent > '0') {
+                n.textContent--;
+            }
+        })
             break;
         }
     }
@@ -227,11 +232,6 @@ function add_product_from_view() {
 function remove_product_from_view() {
     let remove_view = document.getElementById("remove_from_view");
     remove_view.addEventListener("click", event => {
-        number.forEach(n => {
-            if (n.textContent > '0') {
-                n.textContent--;
-            }
-        })
         let x = parseInt(event.target.getAttribute('data-id'));
         remove_item_from_bag(x);
         add.forEach((a, i) => {
