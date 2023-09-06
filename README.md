@@ -13,7 +13,7 @@ Follow these steps to install and run the calculator application locally:
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/BasemYahia402/Calculator.git
+    git clone https://github.com/BasemYahia402/E-Commerce.git
 
 2. Navigate to the project directory
 
@@ -27,7 +27,7 @@ Contributions are welcome! If you'd like to contribute to the calculator project
 1. Fork the repository on GitHub.
 2. Clone your forked repository:
     ```bash
-    git clone https://github.com/BasemYahia402/Calculator.git
+    git clone https://github.com/BasemYahia402/E-Commerce.git
 
 3. Create a new branch for your feature/bugfix:
 
